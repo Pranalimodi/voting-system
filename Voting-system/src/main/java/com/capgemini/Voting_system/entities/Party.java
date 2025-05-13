@@ -1,5 +1,6 @@
 package com.capgemini.Voting_system.entities;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
