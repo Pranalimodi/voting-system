@@ -1,3 +1,4 @@
+package com.capgemini.Voting_system.entities;
 import java.time.LocalDateTime;
 
 
