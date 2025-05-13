@@ -28,10 +28,10 @@ public class Candidates {
     
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "user_id")
-    private User user;
+    private Users users;
 	private String manifesto;
 	@ManyToOne
     @JoinColumn(name = "election_id", referencedColumnName = "election_id")
-    private Election election;
+    private Elections elections;
 	private Long electionId;
 }
